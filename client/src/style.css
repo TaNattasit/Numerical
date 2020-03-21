@@ -1,0 +1,78 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #857726;
+   color: rgb(221, 208, 208);
+  font-size: 30px;
+}
+
+.ant-Table .header{
+  color: darkslategray;
+}
+
+.ant-table {
+  display: block;
+
+  @media screen and (max-width: 600px) {
+    &-thead {
+      display: none;
+    }
+
+    &-thead>tr,
+    &-tbody>tr {
+
+      th,
+      td {
+        &:first-of-type {
+          padding-top: 1rem;
+        }
+
+        &:last-of-type {
+          padding-bottom: 1rem;
+        }
+      }
+
+      >th,
+      >td {
+        display: block;
+        width: auto !important;
+        border: none;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+
+        &:last-child {
+          border-bottom: 1px solid #eee;
+        }
+      }
+    }
+  }
+}
+
+/* .menu{
+  width: 100%;
+} */
+
+/* @media only screen and (max-width:800px) { */
+  /* For tablets: */
+  /* .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+  .container {
+    width: 20%;
+    margin-top: 20%;
+  } */
+/* } */
